@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+/* 
+Wallpaper
+Source: https://wallpapersafari.com/hd-library-wallpaper/ 
+*/
+#one-page{
+    height: 100%;
+    background-image: url("E:/library management/images/wallpaper.jpg");
+    background-size: auto;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto ;
+     text-align:center;
+    
+}
+.container{
+    position: relative;
+    top: 15%;
+    text-align:center;
+}
+h1{
+    font-size: 50px;
+    text-align:center;
+
+}
+
+@media (max-width: 976px){
+    #one-page{
+        height: 150%;
+        background-image: url("/images/wallpaper.jpg");
+        background-size: auto;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        -o-background-size: auto ; 
+    }
+}
